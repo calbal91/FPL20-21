@@ -1,0 +1,453 @@
+1593251686657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileJRzpvg"
+1593251699563	Marionette	INFO	Listening on port 63317
+1593251699631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+1593253974141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileVTY5rB"
+1593253990944	Marionette	INFO	Listening on port 64859
+1593253991048	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.ab8181ab71962248b884f9c66f377f87.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+JavaScript error: https://www.premierleague.com/resources/prod/a4be0a1-2630/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+1593258667263	Marionette	INFO	Stopped listening on port 63317
+1593258668956	Marionette	INFO	Stopped listening on port 64859
+1593856278723	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileuursZn"
+1593856297130	Marionette	INFO	Listening on port 52911
+1593856913597	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileaY5Zms"
+1593856925181	Marionette	INFO	Listening on port 52993
+1593856925207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593857245898	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile2jCwX6"
+1593857256264	Marionette	INFO	Listening on port 53152
+1593857256343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+1593858854834	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileJ1m5Hx"
+1593858871674	Marionette	INFO	Listening on port 53794
+1593858871771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593859097996	Marionette	INFO	Stopped listening on port 52911
+1593859100001	Marionette	INFO	Stopped listening on port 52993
+1593859103833	Marionette	INFO	Stopped listening on port 53152
+JavaScript warning: https://public.tableau.com/vizql/v_202022006180914/javascripts/vqlweb.js, line 79: unreachable code after return statement
+JavaScript warning: https://public.tableau.com/vizql/v_202022006180914/javascripts/vqlweb.js, line 79: unreachable code after return statement
+JavaScript warning: https://public.tableau.com/vizql/v_202022006180914/javascripts/vqlweb.js, line 79: unreachable code after return statement
+1593862476873	Marionette	INFO	Stopped listening on port 53794
+1593887836380	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileGQp4QD"
+1593887840986	Marionette	INFO	Listening on port 55889
+1593887841115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593888134233	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileHrMYFT"
+1593888143401	Marionette	INFO	Listening on port 56008
+1593888143454	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+JavaScript error: https://www.premierleague.com/resources/prod/8e3e9db-2655/widgets/pl_match-centre.min.js, line 1: TypeError: n.seasonSoFar is not a constructor
+1593888809307	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofiledIhF0a"
+1593888819869	Marionette	INFO	Listening on port 56593
+1593888819969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593889074595	Marionette	INFO	Stopped listening on port 56593
+1593889078128	Marionette	INFO	Stopped listening on port 55889
+1593889080852	Marionette	INFO	Stopped listening on port 56008
+1595063021784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileRY5FQy"
+1595063042524	Marionette	INFO	Listening on port 61169
+1595063042629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: a[e[0]] is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/d92750e-2696/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1595063974398	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilem6hgct"
+1595064043489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileaFg0i0"
+1595064090967	Marionette	INFO	Listening on port 62292
+1595064090979	Marionette	INFO	Listening on port 62264
+1595064091093	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595064737138	Marionette	INFO	Stopped listening on port 62264
+1595064738589	Marionette	INFO	Stopped listening on port 62292
+1595064747088	Marionette	INFO	Stopped listening on port 61169
+1595533481193	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileP2BR1j"
+1595533486433	Marionette	INFO	Listening on port 49689
+1595533486510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1595534051111	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileJ68YPx"
+1595534062248	Marionette	INFO	Listening on port 50103
+1595534062342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1595534544932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilePToj7H"
+1595534564581	Marionette	INFO	Listening on port 50894
+1595534564687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595535543298	Marionette	INFO	Stopped listening on port 50894
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+1595676288597	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile3D5YzR"
+1595676302355	Marionette	INFO	Listening on port 54555
+1595676302397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595676646203	Marionette	INFO	Stopped listening on port 54555
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/7f8d124-2728/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+1595776119538	Marionette	INFO	Stopped listening on port 50103
+1596389125196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileEtnoZF"
+1596389136904	Marionette	INFO	Listening on port 58221
+1596389136990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596389570824	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileoyV2no"
+1596389585618	Marionette	INFO	Listening on port 58959
+1596389585696	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/90736b1-2752/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/90736b1-2752/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/90736b1-2752/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/90736b1-2752/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/90736b1-2752/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1598104942611	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilePsFFXr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598105024840	Marionette	INFO	Listening on port 64311
+1598105078300	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileaU6tv9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598105105941	Marionette	INFO	Listening on port 51000
+1598105106399	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598105265857	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileZZ4d8H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598105292198	Marionette	INFO	Listening on port 51311
+1598105292237	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=14cd7e800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=14cd7e800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=14cd7f000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=14cd7f000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=151c09400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=151c09400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=1483e9400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 79540, MediaDecoderStateMachine #1] WARNING: Decoder=1483e9400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+1598105536184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile3co1Sv"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598105561516	Marionette	INFO	Listening on port 51642
+1598105561536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598105624220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofiletOAaC4"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1598105711772	Marionette	INFO	Stopped listening on port 51642
+1598105717179	Marionette	INFO	Stopped listening on port 51311
+1598105717960	Marionette	INFO	Stopped listening on port 51000
+1598105720086	Marionette	INFO	Stopped listening on port 64311
+1598105727693	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilegkj6k1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598105750273	Marionette	INFO	Listening on port 52557
+1598105750344	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598107171118	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilePr370K"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598107177685	Marionette	INFO	Listening on port 53628
+1598107177710	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/scripts/main.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+1598195576178	Marionette	INFO	Stopped listening on port 52557
+1598196747303	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilezxzrxc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598196764862	Marionette	INFO	Listening on port 55944
+1598196764960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598196771884	Marionette	INFO	Stopped listening on port 55944
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/53c8278-2822/widgets/pl_match-centre.min.js, line 1: TypeError: e.teams is undefined
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+1598546817059	Marionette	INFO	Stopped listening on port 53628
