@@ -451,3 +451,715 @@ JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
 JavaScript error: , line 0: uncaught exception: null
 1598546817059	Marionette	INFO	Stopped listening on port 53628
+1599929105235	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilevq4Awo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599929149175	Marionette	INFO	Listening on port 55670
+1599929262537	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileA2uojm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599929275155	Marionette	INFO	Listening on port 55751
+1599929275615	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599929275824	Marionette	INFO	Stopped listening on port 55670
+1599929571776	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile9O19jK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599929581794	Marionette	INFO	Listening on port 56191
+1599929581906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599929703190	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+1599929840593	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilealjn8f"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599929851561	Marionette	INFO	Listening on port 56525
+1599929851579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599930199091	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileD51YcO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599930209033	Marionette	INFO	Listening on port 56875
+1599930209127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599930295566	Marionette	INFO	Stopped listening on port 55751
+1599930297757	Marionette	INFO	Stopped listening on port 56191
+1599930543329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile8UqcVX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599930551776	Marionette	INFO	Listening on port 57208
+1599930551822	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/whats-new-panel getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+  Message: AbortError: IndexedDB: main/whats-new-panel getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/whats-new-panel getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1600284845678	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileOrVUjo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600284855633	Marionette	INFO	Listening on port 60760
+1600284855733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1600284910220	Marionette	INFO	Stopped listening on port 56525
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1600284912240	Marionette	INFO	Stopped listening on port 56875
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1600284914146	Marionette	INFO	Stopped listening on port 57208
+1600284916324	Marionette	INFO	Stopped listening on port 60760
+1600284956001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileJcwvSo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600284964791	Marionette	INFO	Listening on port 61246
+1600284964864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+1600285230818	Marionette	INFO	Stopped listening on port 61246
+1600285277039	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileNMkubp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600285280923	Marionette	INFO	Listening on port 61537
+1600285280944	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1600372752899	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile207p81"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600372762862	Marionette	INFO	Listening on port 62162
+1600372762949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600373796551	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile7ARRns"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600373806239	Marionette	INFO	Listening on port 62499
+1600373806314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600374493126	Marionette	INFO	Stopped listening on port 61537
+1600374496400	Marionette	INFO	Stopped listening on port 62162
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_hero.min.js, line 1: TypeError: i is null
+1600374613578	Marionette	INFO	Stopped listening on port 62499
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1600374653500	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileH5P4zt"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600374661801	Marionette	INFO	Listening on port 63095
+1600374661865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+1600375143661	Marionette	INFO	Stopped listening on port 63095
+1600375532047	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileM5ZoUP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600375536426	Marionette	INFO	Listening on port 63377
+1600375536458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600375544289	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1600375662746	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileEQfpFe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600375673615	Marionette	INFO	Listening on port 63601
+1600375673623	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600375705991	Marionette	INFO	Stopped listening on port 63601
+1600375708414	Marionette	INFO	Stopped listening on port 63377
+1600375736749	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile8ZzKTz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600375744794	Marionette	INFO	Listening on port 63865
+1600375744908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1600605484796	Marionette	INFO	Stopped listening on port 63865
+1600607880516	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileOTxyXI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600607891701	Marionette	INFO	Listening on port 49782
+1600607891804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+1600608373265	Marionette	INFO	Stopped listening on port 49782
+1600608464226	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilesMAyi9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600608473686	Marionette	INFO	Listening on port 50424
+1600608473765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1600608699738	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileyMlx5C"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600608708750	Marionette	INFO	Listening on port 50938
+1600608708837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600608800629	Marionette	INFO	Stopped listening on port 50938
+1600608804332	Marionette	INFO	Stopped listening on port 50424
+1600608829127	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileyVDS8J"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600608837847	Marionette	INFO	Listening on port 51436
+1600608837870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+1600609455818	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilejj1zLT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600609461057	Marionette	INFO	Listening on port 51953
+1600609461133	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600609479008	Marionette	INFO	Stopped listening on port 51953
+1600609480801	Marionette	INFO	Stopped listening on port 51436
+1600609507496	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile9l3grX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600609516124	Marionette	INFO	Listening on port 52359
+1600609516179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600609536255	Marionette	INFO	Stopped listening on port 52359
+1600609565439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileRO7B2E"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600609569340	Marionette	INFO	Listening on port 52589
+1600609569352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/12b0aee5-0282-4cd4-8b42-16bcaa98aa25.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: , line 0: uncaught exception: null
+1601136701731	Marionette	INFO	Stopped listening on port 52589
+1601136760745	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileI2IShO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601136771349	Marionette	INFO	Listening on port 54695
+1601136771448	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1601137103346	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileN7uJo7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601137110378	Marionette	INFO	Listening on port 55177
+1601137110414	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601138451087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileWhNXU1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601138461321	Marionette	INFO	Listening on port 55734
+1601138461336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601138521710	Marionette	INFO	Stopped listening on port 55177
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/dd069ca-2955/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 92: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1601141453096	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilemy6MN5"
+1601141467654	Marionette	INFO	Stopped listening on port 55734
+1601141480328	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofilesz2iOw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601141494820	Marionette	INFO	Listening on port 56516
+1601141495899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601141496226	Marionette	INFO	Listening on port 56492
+1601141636161	Marionette	INFO	Stopped listening on port 56516
+1601141637003	Marionette	INFO	Stopped listening on port 56492
+1601141648403	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofileNaYzj5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601141663421	Marionette	INFO	Listening on port 57075
+1601141663451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601141777713	Marionette	INFO	Stopped listening on port 57075
+1601142788115	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fb/hsqlnldx5wjdl6vbff0q18_40000gn/T/rust_mozprofile68tcEh"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601142791906	Marionette	INFO	Listening on port 57766
+1601142792000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+console.log: "RemoteSettingsWorker error: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data"

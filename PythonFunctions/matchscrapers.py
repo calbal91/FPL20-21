@@ -7,6 +7,16 @@ import sqlite3
 #Including custom functions, stored elsewhere in the repo
 from PythonFunctions.sqlfunctions import *
 
+#We need some SQL functionality for the classes
+#Connect to the database 'fpl.db' (fantasy premier league!)
+conn = sqlite3.connect('Data/20_21fpl.db')
+#Instantiate a cursor
+c = conn.cursor()
+df_teams = sql('SELECT * FROM teams_basic', c).head(20)
+df_players = sql('SELECT * FROM players_basic', c)
+df_matches = sql('SELECT * FROM matches_basic', c)
+
+
 #Webscraping libraries
 import requests
 from splinter import Browser
@@ -18,10 +28,25 @@ from datetime import datetime
 import unicodedata
 
 
+#Set up a browser for scraping
+executable_path = {"executable_path": "/Users/Callum/Downloads/geckodriver"}
+
+#Uncomment below to initiate browser
+browser = Browser("firefox", **executable_path, headless=False)
+
+
+#We should create a function that will remove accents from player names
+#e.g. "à" should become "a", and so forth. This will help with commentary
+#recognition later...
+def remove_accents(input_str):
+    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
+
+
 #MATCH SCRAPER
 #_____________________________________________________________
 
-def get_match_commentary_html(match, threshold = 'Lineups are announced and players are warming up.'):
+def get_match_commentary_html(match, threshold = 'Lineups are announced and players are warming up.', browser=browser):
     
     '''
     Takes a 5-digit integer, referring to the code of the match on premier league website.
@@ -137,10 +162,10 @@ def get_match_players(match):
 
 
 
-def get_match_stats_html(match):
+def get_match_stats_html(match, browser=browser):
     
     '''
-    Returns the html for the line up page of the given match
+    Returns the html for the stats page of the given match
     
     '''
     
@@ -1055,6 +1080,242 @@ def combine_shot_tables(matches):
     return df_temp
 
 
+def shot_filter(df, player=None, event='shot', gameweeks=None,
+                shot_outcomes=None, shot_positions=None,
+                side=None, shot_type=None, close=None, team=None):
+    
+    '''
+    Filters a shot dataframe according to inputs.
+    
+    Parameters:
+    - player (str):
+    - event (str):
+    - gameweeks (list):
+    - shot_outcomes (list):
+    - shot_positions (list):
+    - shot_side (list):
+    - close (str):
+    - team (str):
+    
+    '''
+    
+    #Extract all possible outcomes for each column    
+    if gameweeks == None:
+        gameweeks = list(range(max(df_shots['GameWeek'])+1))
+        
+    if shot_outcomes == None:
+        shot_outcomes = df['ShotOutcome'].unique()
+                    
+    if shot_positions == None:
+        shot_positions = df['ShotPosition'].unique()
+        
+    if shot_type == None:
+        shot_type = df['ShotType'].unique()
+    elif type(side) != list:
+        shot_type = [shot_type]
+        
+    if side == None:
+        side = df['ShotSide'].unique()
+    elif type(side) != list:
+        side = [side]
+        
+    if team == None:
+        team = df['ForTeam'].unique()
+    else:
+        team = [team]
+                        
+    if close == None:
+        close = ['close','not close']
+    else:
+        close = [close]
+    
+    #Now perform a big loc to filter as required
+    df = df.loc[(df['GameWeek'].isin(gameweeks))
+               & (df['ShotOutcome'].isin(shot_outcomes))
+               & (df['ShotPosition'].isin(shot_positions))
+               & (df['ShotType'].isin(shot_type))
+               & (df['Close'].isin(close))
+               & (df['ForTeam'].isin(team))
+               & (df['ShotSide'].isin(side))]
+    
+    
+    if player == None:
+        player = df['Player'].unique()
+    else:
+        player = [player]
+    
+    #Filter on either shots or assists, depending on input
+    if event == 'shot':
+        return df.loc[df['Player'].isin(player)]
+    elif event == 'assist':
+        return df.loc[df['AssistedBy'].isin(player)]
+
+
+def goals_in_week(df, player, event='shot', gameweek=None):
+    
+    '''
+    Returns the number of goals that a given player
+    scored / assisted in the gameweek
+    '''
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          event=event, shot_outcomes=['Goal'])
+    
+    return len(df_temp)
+
+
+
+def shots_in_week(df, player, event='shot', side=None, gameweek=None):
+    
+    '''
+    Returns the number of total shots that a given player
+    hit / assisted in the gameweek
+    '''
+    if side != None:
+        side = [side]
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          event=event, side=side)    
+    
+    return len(df_temp)
+
+
+
+def headers_in_week(df, player, event='shot', gameweek=None):
+    
+    '''
+    Returns the number of total headers that a given player
+    hit / assisted in the gameweek
+    '''
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          event=event, shot_type = 'header')    
+    
+    return len(df_temp)
+
+
+
+def shots_close_in_week(df, player, event='shot', gameweek=None):
+    
+    '''
+    Returns the number of close shots that a given player
+    hit / assisted in the gameweek
+    '''
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          close='close', event=event)
+    
+    return len(df_temp)
+
+
+
+def shots_on_target_in_week(df, player, event='shot', gameweek=None):
+    
+    '''
+    Returns the number of total shots on target that a given player
+    hit / assisted in the gameweek
+    '''
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          shot_outcomes=['Saved','Goal'],
+                          event=event)
+    
+    return len(df_temp)
+
+
+
+def shots_in_box_in_week(df, player, event='shot', gameweek=None):
+    
+    '''
+    Returns the number of total shots in the box that a given player
+    hit / assisted in the gameweek
+    '''
+    
+    df_temp = shot_filter(df, player, gameweeks = [gameweek],
+                          shot_positions = ['the box', 'the six yard box'],
+                          event=event)
+    
+    return len(df_temp)
+
+
+
+
+def player_gameweek_row(player, df, gameweek=None, verbose=True):
+    
+    '''
+    Creates an aggregated view of a player's
+    attacking performance in that gameweek
+    '''
+    if verbose==True:
+        print(f'{player}, gameweek {gameweek}')
+    
+    for_team = df_players.loc[df_players['CommentName']==player]['Team'].item()
+    
+    against_team = shot_filter(team=for_team,
+                               gameweeks=[gameweek],
+                               df=df)['AgainstTeam'].mode().item()
+    
+    strength = shot_filter(team=for_team,
+                           gameweeks=[gameweek],
+                           df=df)['RelativeStrength'].mode().item()
+    
+    goals = [goals_in_week(df, player, gameweek=gameweek)]
+    sot = [shots_on_target_in_week(df, player, gameweek=gameweek)]
+    sib = [shots_in_box_in_week(df, player, gameweek=gameweek)]
+    close = [shots_close_in_week(df, player, gameweek=gameweek)]
+    shots = [shots_in_week(df, player, gameweek=gameweek)]
+    headers = [headers_in_week(df, player, gameweek=gameweek)]
+    shots_centre = [shots_in_week(df, player, gameweek=gameweek, side='the centre')]
+    shots_left = [shots_in_week(df, player, gameweek=gameweek, side='the left')]
+    shots_right = [shots_in_week(df, player, gameweek=gameweek, side='the right')]
+    
+    goal_ass = [goals_in_week(df, player, gameweek=gameweek,
+                              event='assist')]
+    sot_ass = [shots_on_target_in_week(df, player, gameweek=gameweek,
+                                       event='assist')]
+    sib_ass = [shots_in_box_in_week(df, player, gameweek=gameweek,
+                                    event='assist')]
+    close_ass = [shots_close_in_week(df, player, gameweek=gameweek,
+                                 event='assist')]
+    total_ass = [shots_in_week(df, player, gameweek=gameweek,
+                             event='assist')]
+    headers_ass = [headers_in_week(df, player, gameweek=gameweek,
+                                   event='assist')]
+    ass_centre = [shots_in_week(df, player, gameweek=gameweek,
+                                event='assist', side='the centre')]
+    ass_left = [shots_in_week(df, player, gameweek=gameweek,
+                                event='assist', side='the left')]
+    ass_right = [shots_in_week(df, player, gameweek=gameweek,
+                                event='assist', side='the right')]
+    
+    
+    df_temp = pd.DataFrame({'GameWeek':[gameweek],
+                            'Player':[player],
+                            'ForTeam': for_team,
+                            'AgainstTeam': against_team,
+                            'RelativeStrength': strength,
+                            'Goals': goals,
+                            'ShotsOnTarget': sot,
+                            'ShotsInBox': sib,
+                            'CloseShots': close,
+                            'TotalShots': shots,
+                            'Headers': headers,
+                            'ShotsCentre': shots_centre,
+                            'ShotsLeft': shots_left,
+                            'ShotsRight': shots_right,
+                            'GoalAssists': goal_ass,
+                            'ShotOnTargetCreated': sot_ass,
+                            'ShotInBoxCreated': sib_ass,
+                            'CloseShotCreated': close_ass,
+                            'TotalShotCreated': total_ass,
+                            'HeadersCreated': headers_ass,
+                            'CreatedCentre': ass_centre,
+                            'CreatedLeft': ass_left,
+                            'CreatedRight': ass_right})
+    
+    return df_temp
+
+
 
 def df_player_games_extender(df, shot_df, verbose=True):
     
@@ -1066,7 +1327,7 @@ def df_player_games_extender(df, shot_df, verbose=True):
     #Declare an empty dataframe, which we'll concatenate
     #to the player_games dataframe
     
-    cols = ['Player','GameWeek','Minutes','ForTeam','AgainstTeam',
+    cols = ['Player','MatchID','GameWeek','Minutes','ForTeam','AgainstTeam',
             'RelativeStrength','Goals','ShotsOnTarget','ShotsInBox','CloseShots',
             'TotalShots','Headers','ShotsCentre','ShotsLeft','ShotsRight',
             'GoalAssists','ShotOnTargetCreated','ShotInBoxCreated',
@@ -1085,12 +1346,17 @@ def df_player_games_extender(df, shot_df, verbose=True):
             #Create the new stats that we'll attach to this stub
             player = df.iloc[i]['Player']
             gameweek = df.iloc[i]['GameWeek']
-            new_row = player_gameweek_row(player, gameweek, df=shot_df,
+            match_id = pd.DataFrame({'MatchID':[shot_df['MatchID'][0]]})
+
+            new_row = player_gameweek_row(player, df=shot_df, gameweek=gameweek, 
                                          verbose=verbose).iloc[:,2:]
+
             #Join the new data to the stub
-            new_row = pd.concat([row_stub, new_row],axis=1)
+            new_row = pd.concat([row_stub, match_id, new_row], axis=1)
+            
             #And append to the grand output dataframe
-            df_temp = pd.concat([df_temp, new_row])
+            df_temp = pd.concat([df_temp, new_row], sort=False)
+            
         except:
             pass
     
@@ -1101,6 +1367,7 @@ def df_player_games_extender(df, shot_df, verbose=True):
     df_temp = df_temp[cols]
     
     return df_temp
+
 
 
 #TEAM LEVEL DATA
@@ -1239,7 +1506,7 @@ def team_table_extended(match, df_ref):
 
 
 
-def team_table_aggregator(matches, df_ref=df_player_summaries):
+def team_table_aggregator(matches, df_ref):
     '''
     Take a list of match objects, get full statistics, 
     and combine all stats into single table
@@ -1320,6 +1587,20 @@ def PlayerBasicsGenerator(matches, df_players):
 
 
 
+def suggested_match_ids():
+    stored_matches = sql('SELECT * FROM team_matches_detail', c)
+    stored_ids = stored_matches['MatchID'].unique()
+    
+    df_temp = df_matches[['MatchID','Date']]
+    df_temp['Date'] = df_temp['Date'].map(lambda x: pd.to_datetime(x.replace('TBC','')))
+    
+    played_ids = df_temp.loc[df_temp['Date']<=date.today(), 'MatchID']
+    played_ids = played_ids.unique()
+    
+    return [i for i in played_ids if i not in stored_ids]
+
+
+
 def CoreDataUpdater(matches, cursor, connection, verbose=True):
     '''
     Takes a list of match codes, then updates the following SQL tables:
@@ -1352,11 +1633,11 @@ def CoreDataUpdater(matches, cursor, connection, verbose=True):
 
             #Upload to sql...
             populate_sql_from_dataframe(temp_shot_detail_df,
-                                        'ShotsDetail', cursor)
+                                        'shots_detail', cursor)
 
             #Create the player matches detail dataframe
             #Firstly, we need to create a simple player games table for the match
-            temp_player_detail_df = PlayerBasicsGenerator([match_object])
+            temp_player_detail_df = PlayerBasicsGenerator([match_object], df_players)
 
             #Then we use the extender to populate
             temp_player_detail_df = df_player_games_extender(temp_player_detail_df,
@@ -1366,10 +1647,9 @@ def CoreDataUpdater(matches, cursor, connection, verbose=True):
                 print(f'Match {i} player detail dataframe successfully created')
 
             #Upload to sql
-            populate_sql_from_dataframe(temp_player_detail_df,
-                                        'PlayerMatchesDetail', cursor)
+            populate_sql_from_dataframe(temp_player_detail_df, 'player_matches_detail', cursor)
 
-            #Try to create the team dataframe - this can fail if browser
+            #Try to create the team dataframe - this can fail if
             #doesn't 'click' on the stats tab properly
             try:
                 #Create team dataframe
@@ -1379,7 +1659,7 @@ def CoreDataUpdater(matches, cursor, connection, verbose=True):
                     print(f'Match {i} team detail dataframe successfully created')
                 #Upload to sql
                 populate_sql_from_dataframe(temp_team_detail_df,
-                                            'TeamMatchesDetail', cursor)
+                                            'team_matches_detail', cursor)
             except:
                 print(f'\nFAILURE: Match {i} team detail dataframe NOT created\n')
 
