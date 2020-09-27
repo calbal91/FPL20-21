@@ -1,6 +1,7 @@
 #Standard data manipulations
 import pandas as pd
 import numpy as np
+from datetime import date
 
 #SQL
 import sqlite3
@@ -1669,3 +1670,25 @@ def CoreDataUpdater(matches, cursor, connection, verbose=True):
                 print(f'Match {i} SQL entries committed')
         except:
             print(f'\nFAILURE: Match {i} failed to scrape - may not have been played yet\n')
+
+            
+            
+def MatchSweeper(cursor, connection, verbose=True):
+    
+    '''
+    Looks up matches that should be in the database, but aren't.
+    Attempts to perform the core updater on these matches.
+    '''
+    
+    temp_df = sql('SELECT * FROM team_matches_detail', c)
+    matchids = list(temp_df['MatchID'].unique())
+
+    missing_matches = []
+
+    for i in range(min(matchids),max(matchids)+1):
+        if i not in matchids:
+            missing_matches.append(i)
+    
+    print(f'Attempting to scrape {missing_matches}')
+            
+    CoreDataUpdater(missing_matches, cursor, connection, verbose=verbose)

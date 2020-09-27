@@ -6,6 +6,8 @@ import numpy as np
 import sqlite3
 #Including custom functions, stored elsewhere in the repo
 from PythonFunctions.sqlfunctions import *
+from PythonFunctions.apicallers import *
+
 
 #We need some SQL functionality for the classes
 #Connect to the database 'fpl.db' (fantasy premier league!)
@@ -13,10 +15,13 @@ conn = sqlite3.connect('Data/20_21fpl.db')
 
 #Instantiate a cursor
 c = conn.cursor()
+df_teams = sql('SELECT * FROM teams_basic', c).head(20)
+df_players = sql('SELECT * FROM players_basic', c)
+df_matches = sql('SELECT * FROM matches_basic', c)
 
 #Create a dataframe of all known shots
-shots_19_20 = sql('select * from shot_detail_19_20')
-shots_20_21 = sql('select * from shots_detail')
+shots_19_20 = sql('select * from shot_detail_19_20', c)
+shots_20_21 = sql('select * from shots_detail', c)
 
 df_all_shots = pd.concat([shots_19_20, shots_20_21])
 
@@ -108,6 +113,7 @@ def xg_prob_constructor(df=df_all_shots):
 df_xg = xg_prob_constructor(df=df_all_shots)
 
 
+
 def xg_col_constructor(df, df_xg=df_xg):
     
     '''
@@ -137,3 +143,82 @@ def xg_col_constructor(df, df_xg=df_xg):
     df['XG'] = xg_column
     
     return df
+
+
+def df_pm_generator():
+    '''
+    Generates a player matches dataframe with XG, XA, and XGI columns
+    '''
+    
+    #Get player matches detail dataframe, and set index for joining
+    df_pm = sql('select * from player_matches_detail',c).set_index(['MatchID','Player'], drop=True)
+    
+    #Create an XG view of shots
+    temp_xg = xg_col_constructor(sql('select * from shots_detail', c))
+    
+    #Goals
+    df_pm['XG'] = temp_xg.groupby(['MatchID','Player']).sum()[['XG']]
+    #Assists
+    df_pm['XA'] = temp_xg.groupby(['MatchID','AssistedBy']).sum()[['XG']]
+
+    #Fill NAs with 0s
+    df_pm.fillna(0, inplace=True)
+    
+    #Calculate goal Involvement
+    df_pm['XGI'] = df_pm['XG'] + df_pm['XA']
+    
+    return df_pm.reset_index()
+
+
+def df_tm_generator():
+    '''
+    Generates a team matches dataframe with XG, XA, and XGI columns
+    '''
+    
+    #Get team matches detail dataframe, and set index for joining
+    df_tm = sql('select * from team_matches_detail', c).drop('TableIndex', axis=1)
+    
+    #Generate a player detail dataframe, with the XG stats 
+    df_pm = df_pm_generator()
+    
+    #Groupby to get the total team stats for XG and XGC
+    df_txg = df_pm.groupby(['MatchID','ForTeam']).sum()[['XG']].reset_index()
+    df_txg.columns = ['MatchID', 'ForTeam', 'XG']
+
+    df_txgc = df_pm.groupby(['MatchID','AgainstTeam']).sum()[['XG']].reset_index()
+    df_txgc.columns = ['MatchID', 'ForTeam', 'XGC']
+    
+    #Merge XG and XGC together
+    df_txg = pd.merge(df_txg, df_txgc, on=['MatchID','ForTeam'])
+    
+    #Merge XG/XGC stats onto the full team data
+    return pd.merge(df_tm, df_txg, on=['MatchID','ForTeam'])
+
+
+
+def api_stat_generator():
+    
+    '''
+    Generates a table of stats that can only be accessed through the FPL API
+    '''
+    
+    #Generate a basic API stat table
+    api_stats = PlayersAPIStats(list(df_players['PlayerID']))
+    
+    #Merge it with the players table to get more data
+    api_stats = pd.merge(df_players[['PlayerID','CommentName','Team']], api_stats, on='PlayerID')
+    
+    #Merge again to get the match ID data, so that we can join it later
+    api_stats = pd.merge(df_matches[['MatchID','Date','Team']], api_stats, on=['Date','Team'])
+    
+    #Drop some columns
+    api_stats = api_stats[['MatchID', 'Date', 'CommentName', 'BPS',
+                           'CleanSheet', 'MinutesPlayed', 'NetTransfersIn',
+                           'Points', 'Price', 'Saves', 'SelectedBy']]
+    
+    #And rename some...
+    api_stats.columns = ['MatchID', 'Date', 'Player', 'BPS',
+                         'CleanSheet', 'MinutesPlayed', 'NetTransfersIn',
+                         'Points', 'Price', 'Saves', 'SelectedBy']
+    
+    return api_stats
