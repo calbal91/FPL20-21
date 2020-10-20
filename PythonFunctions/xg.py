@@ -1,6 +1,7 @@
 #Standard data manipulations
 import pandas as pd
 import numpy as np
+import datetime
 
 #SQL
 import sqlite3
@@ -167,7 +168,14 @@ def df_pm_generator():
     #Calculate goal Involvement
     df_pm['XGI'] = df_pm['XG'] + df_pm['XA']
     
-    return df_pm.reset_index()
+    df_pm.reset_index(inplace=True)
+    
+    #Add player positions
+    df_pm = pd.merge(df_pm, df_players[['CommentName','Position']],
+                     how='left', left_on = 'Player',
+                     right_on = 'CommentName').drop('CommentName', axis=1)
+    
+    return df_pm
 
 
 def df_tm_generator():
@@ -206,10 +214,11 @@ def api_stat_generator():
     api_stats = PlayersAPIStats(list(df_players['PlayerID']))
     
     #Merge it with the players table to get more data
-    api_stats = pd.merge(df_players[['PlayerID','CommentName','Team']], api_stats, on='PlayerID')
+    api_stats = pd.merge(api_stats, df_players[['PlayerID','CommentName','Team']], on='PlayerID')
     
     #Merge again to get the match ID data, so that we can join it later
-    api_stats = pd.merge(df_matches[['MatchID','Date','Team']], api_stats, on=['Date','Team'])
+    api_stats = pd.merge(api_stats, df_matches[['MatchID','Date','Team']],
+                         how='left', on=['Date','Team'])
     
     #Drop some columns
     api_stats = api_stats[['MatchID', 'Date', 'CommentName', 'BPS',

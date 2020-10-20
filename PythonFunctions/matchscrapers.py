@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 from datetime import date
+import time
 
 #SQL
 import sqlite3
@@ -231,6 +232,8 @@ def get_full_match_info(match):
 
 
 
+
+
 #FIXTURES
 #______________________________________________________________
 
@@ -294,6 +297,59 @@ def fixture_details(matches):
     temp_df.reset_index(drop=True, inplace=True)
         
     return temp_df
+
+
+
+def df_matches_constructor():
+    '''
+    Generates a full dataframe of matches
+    '''
+    
+    df = pd.DataFrame()
+    
+    for i in range(58896, 59276):
+        
+        browser.visit(f'https://www.premierleague.com/match/{i}')
+        time.sleep(1.5)
+        
+        html = BeautifulSoup(browser.html, 'html.parser')
+        
+        try:
+            date = html.findAll('div',class_="matchDate")[0].get_text()[4:]
+            date = datetime.strptime(date, '%d %b %Y').strftime("%Y-%m-%d")
+
+        except:
+            date = 'TBC'            
+       
+        try:
+            gameweek = int(html.findAll('div',class_="long")[0].get_text().replace('Matchweek ','')) 
+            if date == 'TBC' and gameweek == 38:
+                gameweek = 'TBC'
+            
+        except:
+            gameweek = 'TBC'
+            
+        home = html.findAll('span',class_="long")[0].get_text()
+        away = html.findAll('span',class_="long")[1].get_text()
+
+        match_ids = [i,i]
+        dates = [date,date]
+        teams = [home,away]
+        oppositions = [away,home]
+        gameweeks = [gameweek,gameweek]
+
+        new_rows = pd.DataFrame({
+            'MatchID':match_ids,
+            'GameWeek':gameweeks,
+            'Date':dates,
+            'Team':teams,
+            'Opposition':oppositions,
+            'Home':['Home','Away']
+        })
+        
+        df = pd.concat([df, new_rows])
+        
+    return df.reset_index(drop=True)
 
 
 
@@ -362,7 +418,7 @@ class Match(object):
                                match['Events']))
 
         #Shots
-        self.goals = list(filter(lambda x: 'Goal!Goal!' in x, self.events))
+        self.goals = list(filter(lambda x: ('Goal!' in x) and ('Own Goal' not in x), self.events))
         self.shots_missed = list(filter(lambda x: 'Attempt missed' in x, self.events))
         self.shots_blocked = list(filter(lambda x: 'Attempt blocked' in x, self.events))
         self.shots_saved = list(filter(lambda x: ('Attempt saved' in x) or
@@ -1237,7 +1293,6 @@ def shots_in_box_in_week(df, player, event='shot', gameweek=None):
                           event=event)
     
     return len(df_temp)
-
 
 
 
