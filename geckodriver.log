@@ -1986,3 +1986,333 @@ JavaScript error: https://www.premierleague.com/resources/prod/471f75d-3138/widg
 [Child 2659, MediaDecoderStateMachine #1] WARNING: Decoder=1232fd400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
 [Child 2659, MediaDecoderStateMachine #1] WARNING: Decoder=134c2c400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
 [Child 2659, MediaDecoderStateMachine #1] WARNING: Decoder=134c2c400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+1605731669851	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileBaLFUW"
+2020-11-18 20:34:31.530 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSButton: 0x12d212c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.531 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSButton: 0x137508000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.531 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSButton: 0x137507400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.532 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSButton: 0x137507800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.532 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSButton: 0x137507c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.532 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13750a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:34:31.533 firefox-bin[36769:2158934] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138929400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605731672825	Marionette	INFO	Listening on port 54594
+1605731672861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605731864331	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileJs0QBq"
+2020-11-18 20:37:46.003 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSButton: 0x131c0f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.003 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSButton: 0x131d06800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.004 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSButton: 0x131d07000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.004 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSButton: 0x131d08000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.005 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSButton: 0x131d09800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.005 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131d06400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:37:46.005 firefox-bin[36797:2160868] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132a0b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605731867119	Marionette	INFO	Listening on port 56342
+1605731867245	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605731950219	Marionette	INFO	Stopped listening on port 56342
+1605731953061	Marionette	INFO	Stopped listening on port 54594
+1605732374190	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileQIQD0H"
+2020-11-18 20:46:15.866 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSButton: 0x1360d5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.867 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSButton: 0x136708800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.867 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSButton: 0x136709000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.868 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSButton: 0x136706c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.868 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSButton: 0x136707000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.869 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136706400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 20:46:15.869 firefox-bin[36871:2165350] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137924c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605732377012	Marionette	INFO	Listening on port 56457
+1605732377085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/common.min.js, line 1: TypeError: e[a].fixture is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/b700777-3248/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1605776073888	Marionette	INFO	Stopped listening on port 56457
+1606425075865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileEKJnNT"
+2020-11-26 21:11:17.654 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x12e1de000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.655 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x1388e6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.655 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x1388e6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.656 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x1388e8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.656 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x1388e9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.657 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1388e5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:11:17.657 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138907800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606425079137	Marionette	INFO	Listening on port 51391
+1606425079222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+1606426326183	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofilemzZW4H"
+2020-11-26 21:32:07.792 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSButton: 0x127679800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.792 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSButton: 0x1316b3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.793 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSButton: 0x1316b1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.794 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSButton: 0x1316b4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.794 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSButton: 0x1316b1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.795 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1316b1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:32:07.795 firefox-bin[88230:5773172] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1316d5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606426329027	Marionette	INFO	Listening on port 52209
+1606426329082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606426602138	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileaq9rAo"
+2020-11-26 21:36:43.778 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSButton: 0x12bc14800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.779 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSButton: 0x1356dd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.779 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSButton: 0x1356e4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.780 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSButton: 0x1356e1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.780 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSButton: 0x1356e2000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.780 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1356df000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:36:43.781 firefox-bin[88291:5776079] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1367ae000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606426605033	Marionette	INFO	Listening on port 52944
+1606426605143	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606426673651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofilejuWhFq"
+2020-11-26 21:37:55.371 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSButton: 0x12c16e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.372 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSButton: 0x1361d1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.373 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSButton: 0x1361d4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.373 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSButton: 0x1361d4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.374 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSButton: 0x1361d2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.375 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1361d2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:37:55.376 firefox-bin[88311:5777391] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13701a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606426676659	Marionette	INFO	Listening on port 53662
+1606426676756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606426712363	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileKzjAXS"
+2020-11-26 21:38:33.961 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSButton: 0x12fed7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.961 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSButton: 0x12ffe8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.962 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSButton: 0x12ffe4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.962 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSButton: 0x12ffe4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.963 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSButton: 0x12ffea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.963 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ffe8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:38:33.964 firefox-bin[88323:5778432] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13a9a5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606426715159	Marionette	INFO	Listening on port 54230
+1606426715246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.96fd96193cc66c3e11d4c5e4c7c7ec97.html?origin=https%3A%2F%2Fwww.premierleague.com, line 12: Error: Network error.
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: i.lookup is not a function
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+1606427688400	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileewjmh5"
+2020-11-26 21:54:50.151 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSButton: 0x12a026400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.152 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSButton: 0x133fb9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.153 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSButton: 0x133fc6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.153 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSButton: 0x133fc7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.154 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSButton: 0x133fc6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.154 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133fc5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 21:54:50.155 firefox-bin[88398:5789778] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133fd0000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606427691424	Marionette	INFO	Listening on port 55232
+1606427691500	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+1606429270586	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rf/phr19ghd5qq69rc4ghp36n7w0000gp/T/rust_mozprofileXxGoX6"
+2020-11-26 22:21:12.332 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSButton: 0x12ea72800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.333 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSButton: 0x138ae3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.334 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSButton: 0x138ae1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.334 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSButton: 0x138ae5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.335 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSButton: 0x138ae1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.335 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138adf400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:21:12.335 firefox-bin[88528:5805754] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139e2cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606429273666	Marionette	INFO	Listening on port 55811
+1606429273702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: a.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: e.topPlayer is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_match-centre.min.js, line 1: TypeError: t.content is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+JavaScript error: https://www.premierleague.com/resources/prod/afea8bf-3280/widgets/pl_kotm.min.js, line 1: TypeError: t.metadata is undefined
+1606431219474	Marionette	INFO	Stopped listening on port 52209
+1606431223455	Marionette	INFO	Stopped listening on port 52944
+1606431224683	Marionette	INFO	Stopped listening on port 54230
+1606431225804	Marionette	INFO	Stopped listening on port 55232
+1606431227076	Marionette	INFO	Stopped listening on port 55811
+2020-11-26 22:53:47.515 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x139d04000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.516 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x139d0b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.516 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x139d11400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.517 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x139e3d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.517 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSButton: 0x139e43400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.518 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139e3c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-26 22:53:47.518 firefox-bin[88054:5759691] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13a346400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1606431229131	Marionette	INFO	Stopped listening on port 51391

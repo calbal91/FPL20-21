@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 from datetime import date
+from datetime import datetime
 import time
 
 #SQL
@@ -31,7 +32,7 @@ import unicodedata
 
 
 #Set up a browser for scraping
-executable_path = {"executable_path": "/Users/Callum/Downloads/geckodriver"}
+executable_path = {"executable_path": "/Users/callumballard/Documents/Python/FPL20-21/geckodriver"}
 
 #Uncomment below to initiate browser
 browser = Browser("firefox", **executable_path, headless=False)
@@ -1650,7 +1651,9 @@ def suggested_match_ids():
     df_temp = df_matches[['MatchID','Date']]
     df_temp['Date'] = df_temp['Date'].map(lambda x: pd.to_datetime(x.replace('TBC','')))
     
-    played_ids = df_temp.loc[df_temp['Date']<=date.today(), 'MatchID']
+    date_today = datetime.combine(date.today(), datetime.min.time())
+    
+    played_ids = df_temp.loc[df_temp['Date']<=date_today, 'MatchID']
     played_ids = played_ids.unique()
     
     return [i for i in played_ids if i not in stored_ids]
